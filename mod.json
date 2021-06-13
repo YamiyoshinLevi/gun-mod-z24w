@@ -1,0 +1,10 @@
+{
+	"name": "gun-mod-z24w",
+	"displayName": "GunneryUnlimited z24w DLC",
+	"author": "Darknes Tech Mods inc.",
+	"description": "A DLC of gun-mod, add a new planet called z24w.\n[stat]Requires [#00aaff]YamiyoshinLevi/gun-mod[].",
+	"version": "0.1 beta",
+	"dependencies": ["gun-mod"],
+	"minGameVersion": 126,
+	"hidden": false
+}
