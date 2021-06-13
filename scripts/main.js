@@ -1,0 +1,1 @@
+require('campaign/z24w');
