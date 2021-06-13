@@ -307,10 +307,10 @@ const z24we = new JavaAdapter(Planet, {}, "z24w", Planets.sun, 3, 1);
 z24we.generator = z24w;
 z24we.startSector = 1;
 z24we.hasAtmosphere = true;
-z24we.atmosphereColor = Color.valueOf("f0e4a8");
+z24we.atmosphereColor = Color.valueOf("e4f0a8");
 z24we.meshLoader = () => new HexMesh(z24we, 6);
 //end planet z24we
-//Z24we sector presets
+//z24we sector presets
 const sod = new SectorPreset("seaOfDeath", z24we, 1);
 sod.captureWave = 40;
 sod.alwaysUnlocked = true;
