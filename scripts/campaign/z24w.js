@@ -183,6 +183,10 @@ const z24w = extend(PlanetGenerator, {
             ores.add(Blocks.oreCoal);
         };
 
+        if(rand.chance(0.7)){
+            ores.add(Vars.content.getByName(ContentType.block, "gun-mod-z24w-ore-oreGold"));
+        };
+
         if(this.noise.octaveNoise3D(2, 0.5, scl, this.sector.tile.v.x + 1, this.sector.tile.v.y, this.sector.tile.v.z) * nmag + poles > 0.5 * addscl){
             ores.add(Blocks.oreTitanium);
         };
@@ -314,4 +318,7 @@ z24we.meshLoader = () => new HexMesh(z24we, 6);
 const sod = new SectorPreset("seaOfDeath", z24we, 1);
 sod.captureWave = 40;
 sod.alwaysUnlocked = true;
+const gmaze = new SectorPreset("ghastlyMaze", z24we, 2);
+gmaze.captureWave = 50;
+gmaze.alwaysUnlocked = true;
 //end z24we sector presets
