@@ -1,0 +1,25 @@
+type: UnitFactory
+name: Naval Base
+description: Makes Warships
+health: 455750
+size: 5
+consumes: {
+  power: 0.5
+}
+plans: [
+  {
+    unit: destroyer
+    time: 300
+    requirements: [
+      copper/10
+      lead/25
+    ]
+  }
+]
+requirements: [
+  lead/50
+  silicon/10
+  copper/100
+]
+research: naval-factory
+category: units
