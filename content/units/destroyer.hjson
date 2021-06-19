@@ -4,7 +4,7 @@ description: A WW2 Style Warship, destroy enemies with the guns.
 speed: 1
 accel: 0.2
 flying: false
-range: 300
+range: 200
 hitSize: 20
 health: 3400
 armor: 5
