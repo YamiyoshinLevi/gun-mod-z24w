@@ -1,7 +1,7 @@
 type: naval
 localizedName: Destroyer
 description: A WW2 Style Warship, destroy enemies with the guns.
-speed: 2
+speed: 1
 accel: 0.2
 flying: false
 range: 500
@@ -39,18 +39,19 @@ weapons: [
   reload: 120
   ejectEffect: casing3
   recoil: 10
+  shots: 2
   rotateSpeed: 1
   shootSound: destroyerShoot2
   bullet: {
     type: ArtilleryBulletType
-    speed: 4
+    speed: 10
     splashDamage: 850
     splashDamageRadius: 55
     width: 5
     height: 20
     frontColor: ffda1f
     backColor: ff1414
-    lifetime: 500
+    lifetime: 1000
   }
 }
 ]
