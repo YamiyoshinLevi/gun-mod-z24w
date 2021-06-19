@@ -5,7 +5,7 @@ speed: 1
 accel: 0.2
 flying: false
 range: 500
-hitSize: 60
+hitSize: 20
 health: 3400
 armor: 5
 rotateSpeed: 2
@@ -15,17 +15,17 @@ weapons: [
   name: destroyer-weapon
   x: 5
   y: 9
-  reload: 30
+  reload: 15
   rotate: true
   ejectEffect: casing1
   shootSound: destroyerShoot1
   recoil: 3
   bullet: {
     type: BasicBulletType
-    speed: 10
+    speed: 20
     damage: 100
     width: 2
-    height: 20
+    height: 50
     frontColor: ffda1f
     backColor: ff1414
   }
@@ -48,10 +48,10 @@ weapons: [
     splashDamage: 850
     splashDamageRadius: 55
     width: 5
-    height: 20
+    height: 50
     frontColor: ffda1f
     backColor: ff1414
-    lifetime: 1000
+    lifetime: 100000
   }
 }
 ]
