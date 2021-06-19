@@ -4,7 +4,7 @@ description: A WW2 Style Warship, destroy enemies with the guns.
 speed: 1
 accel: 0.2
 flying: false
-range: 500
+range: 300
 hitSize: 20
 health: 3400
 armor: 5
@@ -51,7 +51,6 @@ weapons: [
     height: 50
     frontColor: ffda1f
     backColor: ff1414
-    lifetime: 100000
   }
 }
 ]
