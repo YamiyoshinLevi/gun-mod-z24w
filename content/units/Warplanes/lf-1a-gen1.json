@@ -18,7 +18,7 @@
 "faceTarget": true,
 "weapons": [
 {
-  "name": "minigun-mk1",
+  "name": "lf-gun_mk1",
   "x": 0,
   "y": 10,
   "mirror": false,
@@ -28,7 +28,7 @@
   "ejectEffect": "casing3",
   "recoil": 0,
   "rotateSpeed": 10,
-  "shootSound": "minigun",
+  "shootSound": "lf-gun_mk1",
   "shake": 2
   "bullet": {
     "type": "BasicBulletType",
