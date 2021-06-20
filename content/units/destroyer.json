@@ -1,0 +1,59 @@
+{
+"type": "naval",
+"localizedName": "Destroyer",
+"description": "A WW2 Style Warship, destroy enemies with the guns.",
+"speed": 1,
+"accel": 0.2,
+"flying": false,
+"range": 200,
+"hitSize": 20,
+"health": 3400,
+"armor": 5,
+"rotateSpeed": 2,
+"rotateShooting": false,
+"deathSound": "destroyer-sunk",
+"weapons": [
+{
+  "name": "destroyer-weapon",
+  "x": 5,
+  "y": 9,
+  "reload": 15,
+  "rotate": true,
+  "ejectEffect": "casing1",
+  "shootSound": "destroyerShoot1",
+  "recoil": 3,
+  "bullet": {
+    "type": "BasicBulletType",
+    "speed": 20,
+    "damage": 100,
+    "width": 2,
+    "height": 50,
+    "frontColor": "ffda1f",
+    "backColor": "ff1414"
+  }
+}
+{
+  "name": "destroyer-maingun",
+  "x": 0,
+  "y": -24,
+  "mirror": false,
+  "rotate": true,
+  "reload": 120,
+  "ejectEffect": "casing3",
+  "recoil": 10,
+  "shots": 2,
+  "rotateSpeed": 1,
+  "shootSound": "destroyerShoot2",
+  "bullet": {
+    "type": "ArtilleryBulletType",
+    "speed": 10,
+    "splashDamage": 850,
+    "splashDamageRadius": 55,
+    "width": 5,
+    "height": 50,
+    "frontColor": "ffda1f",
+    "backColor": "ff1414"
+  }
+}
+]
+}
