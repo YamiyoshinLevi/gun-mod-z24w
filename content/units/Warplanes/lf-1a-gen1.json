@@ -23,17 +23,17 @@
   "y": 10,
   "mirror": false,
   "rotate": false,
-  "reload": 1,
-  "shots": 3,
+  "reload": 15,
+  "shots": 1,
   "ejectEffect": "casing3",
   "recoil": 0,
   "rotateSpeed": 10,
   "shootSound": "minigun",
-  "shake": 1
+  "shake": 2
   "bullet": {
     "type": "BasicBulletType",
     "speed": 15,
-    "damage": 25,
+    "damage": 50,
     "width": 3,
     "height": 50,
     "hitShake": 2,
