@@ -27,7 +27,7 @@ weapons: [
   ejectEffect: casing3
   recoil: 0
   rotateSpeed: 10
-  shootSound: minigun
+  shootSound: gun-mod-z24w-minigun
   shake: 1
   bullet: {
     type: BasicBulletType
