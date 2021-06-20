@@ -17,14 +17,14 @@ weapons: [
 {
   name: minigun-mk1
   x: 0
-  y: 5
+  y: 10
   mirror: false
   rotate: false
-  reload: 0
+  reload: 1
   shots: 3
   ejectEffect: casing3
   recoil: 5
-  rotateSpeed: 0.75
+  rotateSpeed: 10
   shootSound: minigun
   shake: 1
   bullet: {
