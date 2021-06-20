@@ -1,0 +1,105 @@
+{
+"type": "naval",
+"localizedName": "Cruiser",
+"description": "A WW2 Style Warship, destroy enemies with the guns and 3 strong cannon.",
+"speed": 0.8,
+"accel": 0.13,
+"flying": false,
+"range": 250,
+"hitSize": 25,
+"health": 5040,
+"armor": 5,
+"rotateSpeed": 1,
+"rotateShooting": false,
+"deathSound": "cruiser-sunk",
+"weapons": [
+{
+  "name": "cruiser-gun",
+  "x": 5,
+  "y": -25,
+  "reload": 10,
+  "rotate": true,
+  "ejectEffect": "casing1",
+  "shootSound": "destroyerShoot1",
+  "recoil": 1,
+  "bullet": {
+    "type": "BasicBulletType",
+    "speed": 20,
+    "damage": 150,
+    "width": 3,
+    "height": 50,
+    "frontColor": "ffda1f",
+    "backColor": "ff1414"
+  }
+}
+{
+  "name": "cruiser-maingun",
+  "x": 0,
+  "y": 10,
+  "mirror": false,
+  "rotate": true,
+  "reload": 180,
+  "ejectEffect": "casing3",
+  "recoil": 10,
+  "shots": 2,
+  "rotateSpeed": 1,
+  "shootSound": "destroyerShoot2",
+  "bullet": {
+    "type": "ArtilleryBulletType",
+    "speed": 10,
+    "splashDamage": 1000,
+    "splashDamageRadius": 75,
+    "width": 5,
+    "height": 50,
+    "frontColor": "ffda1f",
+    "backColor": "ff1414"
+  }
+}
+{
+  "name": "cruiser-maingun",
+  "x": 0,
+  "y": -5,
+  "mirror": false,
+  "rotate": true,
+  "reload": 180,
+  "ejectEffect": "casing3",
+  "recoil": 10,
+  "shots": 2,
+  "rotateSpeed": 1,
+  "shootSound": "destroyerShoot2",
+  "bullet": {
+    "type": "ArtilleryBulletType",
+    "speed": 10,
+    "splashDamage": 1000,
+    "splashDamageRadius": 75,
+    "width": 5,
+    "height": 50,
+    "frontColor": "ffda1f",
+    "backColor": "ff1414"
+  }
+}
+{
+  "name": "cruiser-maingun",
+  "x": 0,
+  "y": -30,
+  "mirror": false,
+  "rotate": true,
+  "reload": 180,
+  "ejectEffect": "casing3",
+  "recoil": 10,
+  "shots": 2,
+  "rotateSpeed": 1,
+  "shootSound": "destroyerShoot2",
+  "bullet": {
+    "type": "ArtilleryBulletType",
+    "speed": 10,
+    "splashDamage": 1000,
+    "splashDamageRadius": 75,
+    "width": 5,
+    "height": 50,
+    "frontColor": "ffda1f",
+    "backColor": "ff1414"
+  }
+}
+]
+}
