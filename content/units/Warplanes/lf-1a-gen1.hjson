@@ -14,6 +14,7 @@ engineOffset: 12
 rotateShooting: true
 lightRadius: 45
 lightColor: e65555
+faceTarget: true
 weapons: [
 {
   name: minigun-mk1
