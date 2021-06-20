@@ -15,6 +15,14 @@ plans: [
       lead/25
     ]
   }
+  {
+    unit: cruiser
+    time: 500
+    requirements: [
+      copper/20
+      lead/40
+    ]
+  }
 ]
 requirements: [
   lead/50
