@@ -10,6 +10,7 @@ health: 3400
 armor: 5
 rotateSpeed: 2
 rotateShooting: false
+deathSound: destroyer-sunk
 weapons: [
 {
   name: destroyer-weapon
