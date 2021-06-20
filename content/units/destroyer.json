@@ -2,7 +2,7 @@
 "type": "naval",
 "localizedName": "Destroyer",
 "description": "A WW2 Style Warship, destroy enemies with the guns.",
-"speed": 1,
+"speed": 2.5,
 "accel": 0.2,
 "flying": false,
 "range": 200,

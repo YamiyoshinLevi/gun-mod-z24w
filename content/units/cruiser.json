@@ -2,7 +2,7 @@
 "type": "naval",
 "localizedName": "Cruiser",
 "description": "A WW2 Style Warship, destroy enemies with the guns and 3 strong cannon.",
-"speed": 0.8,
+"speed": 2,
 "accel": 0.13,
 "flying": false,
 "range": 250,

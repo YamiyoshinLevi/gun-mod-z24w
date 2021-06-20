@@ -5,7 +5,7 @@
 "hitSize": 18,
 "health": 450,
 "range": 165,
-"speed": 3.5,
+"speed": 4,
 "flying": true,
 "drag": 0.02,
 "accel": 0.05,
