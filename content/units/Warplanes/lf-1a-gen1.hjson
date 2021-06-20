@@ -8,7 +8,8 @@ speed: 3.5
 flying: true
 drag: 0.02
 accel: 0.05
-rotateSpeed: 2
+rotateSpeed: 20
+circleTarget: true
 engineOffset: 12
 rotateShooting: true
 lightRadius: 45
@@ -23,7 +24,7 @@ weapons: [
   reload: 1
   shots: 3
   ejectEffect: casing3
-  recoil: 5
+  recoil: 0
   rotateSpeed: 10
   shootSound: minigun
   shake: 1
