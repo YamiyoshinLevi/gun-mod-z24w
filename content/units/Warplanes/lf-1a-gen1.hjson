@@ -34,7 +34,6 @@ weapons: [
     width: 3
     height: 50
     hitShake: 2
-    despawnEffect:gunHit
     frontColor: 52239f
     backColor: 6d56bf
     lightColor: ff0000
