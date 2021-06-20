@@ -1,0 +1,24 @@
+type: UnitFactory
+name: Air Base
+description: Makes Warplanes
+health: 500
+size: 3
+consumes: {
+  power: 0.5
+}
+plans: [
+  {
+    unit: lf-1a-gen1
+    time: 300
+    requirements: [
+      copper/5
+      lead/30
+    ]
+  }
+]
+requirements: [
+  lead/20
+  copper/70
+]
+research: air-factory
+category: units

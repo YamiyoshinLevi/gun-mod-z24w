@@ -1,0 +1,43 @@
+type: flying
+localizedName: LF-1A Gen1(LF-1 Alpha)
+description: WW2 Style Warplane, Fast and Aggressive.
+hitSize: 18
+health: 450
+range: 165
+speed: 3.5
+flying: true
+drag: 0.02
+accel: 0.05
+rotateSpeed: 2
+engineOffset: 12
+rotateShooting: true
+lightRadius: 45
+lightColor: e65555
+weapons: [
+{
+  name: minigun-mk1
+  x: 0
+  y: 5
+  mirror: false
+  rotate: false
+  reload: 0
+  shots: 3
+  ejectEffect: casing3
+  recoil: 5
+  rotateSpeed: 0.75
+  shootSound: minigun
+  shake: 1
+  bullet: {
+    type: BasicBulletType
+    speed: 15
+    damage: 25
+    width: 3
+    height: 50
+    hitShake: 2
+    despawnEffect:gunHit
+    frontColor: 52239f
+    backColor: 6d56bf
+    lightColor: ff0000
+  }
+}
+]
