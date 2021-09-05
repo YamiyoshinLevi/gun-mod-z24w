@@ -35,7 +35,30 @@
 {
   "name": "cruiser-maingun",
   "x": 0,
-  "y": 10,
+  "y": 15,
+  "mirror": false,
+  "rotate": true,
+  "reload": 180,
+  "ejectEffect": "casing3",
+  "recoil": 0,
+  "shots": 2,
+  "rotateSpeed": 1,
+  "shootSound": "destroyerShoot2",
+  "bullet": {
+    "type": "ArtilleryBulletType",
+    "speed": 10,
+    "splashDamage": 1000,
+    "splashDamageRadius": 75,
+    "width": 5,
+    "height": 50,
+    "frontColor": "ffda1f",
+    "backColor": "ff1414"
+  }
+}
+{
+  "name": "cruiser-maingun",
+  "x": 0,
+  "y": -1,
   "mirror": false,
   "rotate": true,
   "reload": 180,
@@ -58,30 +81,7 @@
 {
   "name": "cruiser-maingun",
   "x": 0,
-  "y": -5,
-  "mirror": false,
-  "rotate": true,
-  "reload": 180,
-  "ejectEffect": "casing3",
-  "recoil": 10,
-  "shots": 2,
-  "rotateSpeed": 1,
-  "shootSound": "destroyerShoot2",
-  "bullet": {
-    "type": "ArtilleryBulletType",
-    "speed": 10,
-    "splashDamage": 1000,
-    "splashDamageRadius": 75,
-    "width": 5,
-    "height": 50,
-    "frontColor": "ffda1f",
-    "backColor": "ff1414"
-  }
-}
-{
-  "name": "cruiser-maingun",
-  "x": 0,
-  "y": -30,
+  "y": -24,
   "mirror": false,
   "rotate": true,
   "reload": 180,
