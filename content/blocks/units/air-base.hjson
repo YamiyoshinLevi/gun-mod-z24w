@@ -1,3 +1,4 @@
+{
 type: UnitFactory
 name: Air Base
 description: Makes Warplanes
@@ -7,6 +8,13 @@ consumes: {
   power: 0.5
 }
 plans: [
+  {
+    unit: poly
+    time: 60
+    requirements: [
+      silicon/5
+    ]
+  },
   {
     unit: lf-1a-gen1
     time: 300
@@ -22,3 +30,4 @@ requirements: [
 ]
 research: air-factory
 category: units
+}
